@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Sandhiya❤️</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="flex items-center justify-center h-screen">
+    <!-- ❤️ Background Music -->
+    <audio loop id="bgMusic">
+      <source src="Power Pandi Dhanush Love BGM.mp3" />
+    </audio>
+
+    <!-- ❤️ Proposal Box -->
+    <div
+      id="proposalBox"
+      class="text-center bg-white p-6 sm:p-10 rounded-2xl shadow-xl relative w-full max-w-md"
+    >
+      <h1 class="text-xl sm:text-3xl font-bold text-pink-600 mb-4">
+        ❤️ Will You Be My Wife, Sandhiya? ❤️
+      </h1>
+
+      <p id="funnyText" class="text-gray-700 text-lg sm:text-2xl mb-8">
+        You make my life beautiful. I want to spend forever with you.
+      </p>
+
+      <div id="mediaContainer" class="hidden mx-auto mb-6"></div>
+
+      <div class="flex justify-center gap-4 sm:gap-6">
+        <button
+          id="yesBtn"
+          class="px-5 py-2 sm:px-6 sm:py-2.5 text-base sm:text-lg bg-green-500 text-white rounded-xl w-28"
+        >
+          Yes 💍
+        </button>
+
+        <button
+          id="noBtn"
+          class="px-5 py-2 sm:px-6 sm:py-2.5 text-base sm:text-lg bg-red-500 text-white rounded-xl w-28"
+        >
+          No 😳
+        </button>
+      </div>
+    </div>
+
+    <!-- ❤️ Video Section -->
+    <div
+      id="videoSection"
+      class="hidden fixed inset-0 bg-black flex items-center justify-center"
+    >
+      <video
+        id="loveVideo"
+        controls
+        autoplay
+        class="w-full max-w-3xl rounded-xl"
+      >
+        <source src="1720878499289153.MP4" type="video/mp4" />
+      </video>
+    </div>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
