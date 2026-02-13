@@ -1,12 +1,12 @@
 $(document).ready(function () {
   const noMessages = [
     "Think again please 😭",
-    "I already imagined our wedding 😢",
     "Don’t break my poor heart 💔",
     "I’ll never skip your calls 📞",
+    "I’ll remember every special date 📅",
     "I promise lifetime free food 🍕",
     "I’ll listen to all your stories ❤️",
-    "I’ll remember every special date 📅",
+    "I already imagined our wedding 😢",
     "I’ll make tea for you every day ☕",
     "I’ll hold your hand forever 🤝",
     "I’ll laugh at your jokes always 😂",
@@ -20,22 +20,21 @@ $(document).ready(function () {
 
   // ❤️ Your Images (Put your image path here)
   const noImages = [
-    "images/image.jpeg",
-    "images/image-1.jpeg",
-    "images/image-2.jpeg",
-    "images/image-3.jpeg",
     "images/image-5.jpeg",
+    "images/images--13.jpeg",
+    "images/images--14.jpeg",
+    "images/image.jpeg",
     "images/gif-1.mp4",
-
-    "images/image-4.jpeg",
     "images/image-6.jpeg",
+    "images/image-1.jpeg",
+    "images/gif-3.mp4",
     "images/image-7.jpeg",
     "images/image-8.jpeg",
-    "images/gif-3.mp4",
     "images/image-9.jpeg",
-    "images/image-10.jpeg",
+    "images/image-3.jpeg",
     "images/gif-2.mp4",
     "images/image--11.jpeg",
+    "images/image-2.jpeg",
     "images/image--12.jpeg",
   ];
 
