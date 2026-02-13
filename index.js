@@ -49,14 +49,24 @@ $(document).ready(function () {
       musicStarted = true;
     }
   }
-
-  /* ❤️ YES CLICK */
   $("#yesBtn").click(function () {
     $("#proposalBox").fadeOut();
+
     $("#bgMusic")[0].pause();
-    $("#videoSection").removeClass("hidden");
-    $("#loveVideo")[0].play();
+    setTimeout(function () {
+      $("#videoLoader").removeClass("hidden");
+    }, 500);
+
+    $("#loveVideo").hide();
+
+    setTimeout(function () {
+      $("#videoLoader").addClass("hidden");
+      $("#videoSection").removeClass("hidden");
+      $("#loveVideo").show();
+      $("#loveVideo")[0].play();
+    }, 2000); // 2 sec loader
   });
+
   $("#noBtn").click(function () {
     startMusic();
     $("#funnyText").text(noMessages[messageIndex]);
@@ -68,7 +78,7 @@ $(document).ready(function () {
 
     if (isVideo) {
       $("#mediaContainer").html(`
-        <video autoplay loop muted class="rounded-xl shadow-lg smooth-media" width="240">
+        <video autoplay loop muted class="rounded-xl shadow-lg smooth-media" width="200">
           <source src="${file}" type="video/mp4">
         </video>
     `);
