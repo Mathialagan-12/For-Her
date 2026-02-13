@@ -21,8 +21,8 @@ $(document).ready(function () {
   // ❤️ Your Images (Put your image path here)
   const noImages = [
     "images/image-5.jpeg",
-    "images/images--13.jpeg",
-    "images/images--14.jpeg",
+    "images/image--13.jpeg",
+    "images/image--14.jpeg",
     "images/image.jpeg",
     "images/gif-1.mp4",
     "images/image-6.jpeg",
